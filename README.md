@@ -19,4 +19,4 @@ In file ~/Library/KeyBindings/DefaultKeyBinding.dict
 Uncheck settings that use 'Space'
 
 ## Intellij
-Use Eclipse (Windows) modified keymap (on mac OS it's ~/Library/Application\ Support/JetBrains/IntelliJIdea2022.2/keymaps/Eclipse\ -\ custom.xml
+Use Eclipse (Windows) modified keymap (on mac OS it's ```~/Library/Application\ Support/JetBrains/IntelliJIdea2022.2/keymaps/Eclipse\ -\ custom.xml```)
