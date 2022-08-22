@@ -23,7 +23,7 @@ In case of using Windows keyboard, remap your 'Command' and 'Option' keys (Big t
 
 ## Intellij
 ### Eclipse keymap (more like Windows one)
-Use Eclipse (Windows) modified keymap (on mac OS it's ```~/Library/Application\ Support/JetBrains/IntelliJIdea2022.2/keymaps/Eclipse\ -\ custom.xml```)
+Use Eclipse (Windows) modified keymap (copy default and save as ```Eclipse - custom```. It should be available somewhere in ```~/Library/Application\ Support/JetBrains/IntelliJIdea2022.2/keymaps/Eclipse\ -\ custom.xml```)
 ```xml
 <keymap version="1" name="Eclipse_custom" parent="Eclipse">
   <action id="CallHierarchy">
