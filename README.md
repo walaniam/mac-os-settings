@@ -18,5 +18,5 @@ In file ~/Library/KeyBindings/DefaultKeyBinding.dict
 ### System Preferrences -> Keyboard -> Input Sources
 Uncheck settings that use 'Space'
 
-## Intallij
+## Intellij
 Use Eclipse (Windows) modified keymap (on mac OS it's ~/Library/Application\ Support/JetBrains/IntelliJIdea2022.2/keymaps/Eclipse\ -\ custom.xml
