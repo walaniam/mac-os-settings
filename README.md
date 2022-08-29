@@ -25,16 +25,48 @@ In case of using Windows keyboard, remap your 'Command' and 'Option' keys (Big t
 ### Eclipse keymap (more like Windows one)
 Use Eclipse (Windows) modified keymap (copy default and save as ```Eclipse - custom```. It should be available somewhere in ```~/Library/Application\ Support/JetBrains/IntelliJIdea2022.2/keymaps/Eclipse\ -\ custom.xml```)
 ```xml
-<keymap version="1" name="Eclipse_custom" parent="Eclipse">
+<keymap version="1" name="Eclipse - custom" parent="Eclipse">
+  <action id="$Copy">
+    <keyboard-shortcut first-keystroke="ctrl c" />
+    <keyboard-shortcut first-keystroke="meta c" />
+  </action>
+  <action id="$Cut">
+    <keyboard-shortcut first-keystroke="ctrl x" />
+    <keyboard-shortcut first-keystroke="shift delete" />
+    <keyboard-shortcut first-keystroke="meta x" />
+  </action>
+  <action id="$Paste">
+    <keyboard-shortcut first-keystroke="ctrl v" />
+    <keyboard-shortcut first-keystroke="meta v" />
+  </action>
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="alt left" />
+    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="meta left" />
+  </action>
   <action id="CallHierarchy">
     <keyboard-shortcut first-keystroke="ctrl alt h" />
     <keyboard-shortcut first-keystroke="ctrl meta h" />
   </action>
   <action id="ChangesView.Rename" />
   <action id="ChangesView.SetDefault" />
+  <action id="Editor Copy">
+    <keyboard-shortcut first-keystroke="meta c" />
+  </action>
+  <action id="Editor Cut">
+    <keyboard-shortcut first-keystroke="meta x" />
+  </action>
+  <action id="Editor Paste">
+    <keyboard-shortcut first-keystroke="meta v" />
+  </action>
   <action id="ExtractMethod">
     <keyboard-shortcut first-keystroke="shift alt m" />
     <keyboard-shortcut first-keystroke="meta m" />
+  </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="alt right" />
+    <mouse-shortcut keystroke="button5" />
+    <keyboard-shortcut first-keystroke="meta right" />
   </action>
   <action id="Git.Rename.Local.Branch" />
   <action id="IntroduceConstant">
@@ -59,6 +91,10 @@ Use Eclipse (Windows) modified keymap (copy default and save as ```Eclipse - cus
   </action>
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="shift meta r" />
+  </action>
+  <action id="SaveAll">
+    <keyboard-shortcut first-keystroke="ctrl s" />
+    <keyboard-shortcut first-keystroke="meta s" />
   </action>
   <action id="ShelvedChanges.Rename">
     <keyboard-shortcut first-keystroke="shift meta r" />
