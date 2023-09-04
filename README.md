@@ -25,7 +25,7 @@ In case of using Windows keyboard, remap your 'Command' and 'Option' keys (Big t
 ### Eclipse keymap (more like Windows one)
 Use Eclipse (Windows) modified keymap (copy default and save as ```Eclipse - custom```. It should be available somewhere in ```~/Library/Application\ Support/JetBrains/IntelliJIdea2022.3/keymaps/Eclipse\ -\ custom.xml```)
 ```xml
-<keymap version="1" name="Eclipse - mariuszw" parent="Eclipse">
+<keymap version="1" name="Eclipse - custom" parent="Eclipse">
   <action id="$Copy">
     <keyboard-shortcut first-keystroke="ctrl c" />
     <keyboard-shortcut first-keystroke="meta c" />
