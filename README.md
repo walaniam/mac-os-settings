@@ -23,7 +23,7 @@ In case of using Windows keyboard, remap your 'Command' and 'Option' keys (Big t
 
 ## Intellij
 ### Eclipse keymap (more like Windows one)
-Use Eclipse (Windows) modified keymap (copy default and save as ```Eclipse - custom```. It should be available somewhere in ```~/Library/Application\ Support/JetBrains/IntelliJIdea2022.2/keymaps/Eclipse\ -\ custom.xml```)
+Use Eclipse (Windows) modified keymap (copy default and save as ```Eclipse - custom```. It should be available somewhere in ```~/Library/Application\ Support/JetBrains/IntelliJIdea2022.3/keymaps/Eclipse\ -\ custom.xml```)
 ```xml
 <keymap version="1" name="Eclipse - custom" parent="Eclipse">
   <action id="$Copy">
@@ -38,6 +38,7 @@ Use Eclipse (Windows) modified keymap (copy default and save as ```Eclipse - cus
   <action id="$Paste">
     <keyboard-shortcut first-keystroke="ctrl v" />
     <keyboard-shortcut first-keystroke="meta v" />
+    <keyboard-shortcut first-keystroke="shift help" />
   </action>
   <action id="Back">
     <keyboard-shortcut first-keystroke="alt left" />
@@ -58,6 +59,7 @@ Use Eclipse (Windows) modified keymap (copy default and save as ```Eclipse - cus
   </action>
   <action id="Editor Paste">
     <keyboard-shortcut first-keystroke="meta v" />
+    <keyboard-shortcut first-keystroke="shift help" />
   </action>
   <action id="ExtractMethod">
     <keyboard-shortcut first-keystroke="shift alt m" />
@@ -67,6 +69,9 @@ Use Eclipse (Windows) modified keymap (copy default and save as ```Eclipse - cus
     <keyboard-shortcut first-keystroke="alt right" />
     <mouse-shortcut keystroke="button5" />
     <keyboard-shortcut first-keystroke="meta right" />
+  </action>
+  <action id="Generate">
+    <keyboard-shortcut first-keystroke="meta help" />
   </action>
   <action id="Git.Rename.Local.Branch" />
   <action id="IntroduceConstant">
@@ -89,12 +94,20 @@ Use Eclipse (Windows) modified keymap (copy default and save as ```Eclipse - cus
     <keyboard-shortcut first-keystroke="shift alt l" />
     <keyboard-shortcut first-keystroke="ctrl meta v" />
   </action>
+  <action id="NextProjectWindow">
+    <keyboard-shortcut first-keystroke="ctrl alt close_bracket" />
+    <keyboard-shortcut first-keystroke="meta back_quote" />
+  </action>
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="shift meta r" />
   </action>
   <action id="SaveAll">
     <keyboard-shortcut first-keystroke="ctrl s" />
     <keyboard-shortcut first-keystroke="meta s" />
+  </action>
+  <action id="Scala.ShowImplicits">
+    <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt add" />
   </action>
   <action id="ShelvedChanges.Rename">
     <keyboard-shortcut first-keystroke="shift meta r" />
