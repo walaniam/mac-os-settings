@@ -52,12 +52,15 @@ Use Eclipse (Windows) modified keymap (copy default and save as ```Eclipse - cus
   <action id="ChangesView.Rename" />
   <action id="ChangesView.SetDefault" />
   <action id="Editor Copy">
+    <keyboard-shortcut first-keystroke="ctrl c" />
     <keyboard-shortcut first-keystroke="meta c" />
   </action>
   <action id="Editor Cut">
+    <keyboard-shortcut first-keystroke="ctrl x" />
     <keyboard-shortcut first-keystroke="meta x" />
   </action>
   <action id="Editor Paste">
+    <keyboard-shortcut first-keystroke="ctrl v" />
     <keyboard-shortcut first-keystroke="meta v" />
     <keyboard-shortcut first-keystroke="shift help" />
   </action>
