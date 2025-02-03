@@ -101,6 +101,9 @@ Use Eclipse (Windows) modified keymap (copy default and save as ```Eclipse - cus
     <keyboard-shortcut first-keystroke="ctrl alt close_bracket" />
     <keyboard-shortcut first-keystroke="meta back_quote" />
   </action>
+  <action id="OpenInlineChatAction">
+    <keyboard-shortcut first-keystroke="shift ctrl g" />
+  </action>
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="shift meta r" />
   </action>
@@ -119,6 +122,15 @@ Use Eclipse (Windows) modified keymap (copy default and save as ```Eclipse - cus
     <keyboard-shortcut first-keystroke="ctrl 1" />
     <keyboard-shortcut first-keystroke="alt enter" />
     <keyboard-shortcut first-keystroke="meta enter" />
+  </action>
+  <action id="continue.focusContinueInput">
+    <keyboard-shortcut first-keystroke="meta j" />
+  </action>
+  <action id="continue.focusContinueInputWithoutClear">
+    <keyboard-shortcut first-keystroke="shift meta j" />
+  </action>
+  <action id="continue.inlineEdit">
+    <keyboard-shortcut first-keystroke="meta i" />
   </action>
 </keymap>
 ```
