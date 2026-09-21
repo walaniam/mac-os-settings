@@ -19,7 +19,17 @@ In file ~/Library/KeyBindings/DefaultKeyBinding.dict
 Uncheck settings that use 'Space'
 
 ### Keyboard key modifiers (for Windows keyboard)
-In case of using Windows keyboard, remap your 'Command' and 'Option' keys (Big thanks to https://9to5mac.com/2016/03/17/how-to-remap-windows-keyboard-buttons-match-mac-layout/)
+To make a Windows keyboard match the Mac modifier-key layout:
+
+1. Open **System Settings → Keyboard → Keyboard Shortcuts → Modifier Keys**.
+2. Select the Windows keyboard from the **Select keyboard** list.
+3. Set **Option (⌥) key** to **Command (⌘)**.
+4. Set **Command (⌘) key** to **Option (⌥)**.
+5. Click **Done**.
+
+This swaps the Windows and Alt keys. The resulting layout is **Control | Option | Command**, matching an Apple keyboard.
+
+Source: [How-To: Remap Windows keyboards to match the Mac keyboard layout](https://9to5mac.com/2016/03/17/how-to-remap-windows-keyboard-buttons-match-mac-layout/)
 
 ## Intellij
 ### Eclipse keymap (more like Windows one)
